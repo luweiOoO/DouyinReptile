@@ -1,0 +1,15 @@
+spring:
+#  profiles:
+#    active: dev
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9988
+logging:
+  level:
+    com.changshunfa.stack.mapper: debug
+  file: /data/logs/stack.log
+
+
+#mybatis-plus:
+#  mapper-locations: classpath*:/mapper/*.xml
